@@ -1,1 +1,8 @@
-{"defaultPremise":"","premiseSuffix":"","questionPrefix":"What does the code below do? Write one comment for each of the following numbered statements:\n\n","questionSuffix":"\n\n","answerPrefix":"Comments:\n\n","answerSuffix":"\n\n"}
+{
+  "defaultPremise": "",
+  "premiseSuffix": "",
+  "questionPrefix": "What does the code below do? Write one comment for each of the following numbered statements:\n\n",
+  "questionSuffix": "\n\n",
+  "answerPrefix": "Comments:\n\n",
+  "answerSuffix": "\n\n"
+}

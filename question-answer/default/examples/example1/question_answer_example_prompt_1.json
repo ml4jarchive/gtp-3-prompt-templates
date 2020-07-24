@@ -1,17 +1,22 @@
 {
-   "premise":"",
-   "questionsAndAnswers":[
-      {
-         "question":"question1",
-         "answer":"answer1"
-      
-},
-      {
-         "question":"question1",
-         "answer":"answer1"
-      
-}
-   
-],
-   "defaultPromptQuestion":"promptQuestion"
+  "premise": "",
+  "questionsAndAnswers": [
+    {
+      "question": "What is human life expectancy in the United States?",
+      "answer": "Human life expectancy in the United States is 78 years."
+    },
+    {
+      "question": "Who was president of the United States in 1955?",
+      "answer": "Dwight D. Eisenhower was president of the United States in 1955."
+    },
+    {
+      "question": "What party did he belong to?",
+      "answer": "He belonged to the Republican Party."
+    },
+    {
+      "question": "Who was president of the United States before George W. Bush?",
+      "answer": "Bill Clinton was president of the United States before George W. Bush."
+    }
+  ],
+  "defaultPromptQuestion": "Who won the World Series in 1995?"
 }
