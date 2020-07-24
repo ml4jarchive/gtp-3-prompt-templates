@@ -1,0 +1,12 @@
+{
+   "defaultPremise" : "",
+   "premiseSuffix" : "",	
+   "questionPrefix":"Q: ",
+   "questionSuffix":"\n\n",
+   "answerPrefix": "A: ",
+   "answerSuffix" : "\n\n",
+   "questionTemplate" : "${questionPrefix}${question}${questionSuffix}",
+   "answerTemplate" : "${answerPrefix}${answer}${answerSuffix}",
+   "questionAndAnswerTemplate" : "${questionTemplate}${answerTemplate}",
+   "premiseTemplate" : "${premise}${premiseSuffix}"	
+}

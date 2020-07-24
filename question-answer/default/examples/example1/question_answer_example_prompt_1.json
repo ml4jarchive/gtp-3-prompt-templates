@@ -1,0 +1,17 @@
+{
+   "premise":"",
+   "questionsAndAnswers":[
+      {
+         "question":"question1",
+         "answer":"answer1"
+      
+},
+      {
+         "question":"question1",
+         "answer":"answer1"
+      
+}
+   
+],
+   "defaultPromptQuestion":"promptQuestion"
+}

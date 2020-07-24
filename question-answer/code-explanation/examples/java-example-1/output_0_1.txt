@@ -1,0 +1,29 @@
+What does the code below do? Write one comment for each of the following numbered statements:
+
+Statement 1) stream().map(Dimension::getName).collect(Collectors.toList()).toString();
+Statement 2) stream().flatMap(c -> c.decompose().stream()).collect(Collectors.toList());
+Statement 3) allDecomposedAliases.add(decompose().stream().collect(Collectors.toList()));
+Statement 4) box.getScaledCorners(originalImage.getWidth(), originalImage.getHeight()));
+Statement 5) List<Image> subImages = channelConcatImages.subList(channelRangeStart, channelRangeEnd);
+
+Comments:
+
+Statement 1) // Obtain the names of the dimensions, collect them into a list, and return the list as a string.
+Statement 2) // Call decompose recursively on each of the elements of the stream and collect the results into a list
+Statement 3) // Collect the aliases from the stream returned by the decompose() method into a list, and add them to allDecomposedAliases
+Statement 4) // Get the scaled corners of a bounding box using its width and height of the original image
+Statement 5) // Obtain a list of the elements of subImages with indexes been channelRangeStart (inclusive) and channelRangeEnd (exclusive) and assign the list to a local variable called subImages
+
+What does the code below do? Write one comment for each of the following numbered statements:
+
+Statement 1) List<User> friendsList = me.getFriends();
+Statement 2) List<User> genXFriends = friendsList.stream().filter(user.getAge() > 40 user.getAge() <= 55).collect(Collectiors.toList());
+Statement 3) genXFriends.forEach(user -> user.sendMessage("Hi " + user.getScreenName() + "you are the best!");
+
+Comments:
+
+Statement 1) // Obtain the names of the users in your list, and store them in a list.
+
+Statement 2) // Filter out users who are less than 40 years old or more than 55 years old. This is done by calling filter() on the stream returned by getFriends(). The resulting stream will be empty if no such user exists.
+
+Statement 3) // Create an instance of Collectors that contains all the lists you want to process.
