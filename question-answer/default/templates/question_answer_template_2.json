@@ -1,7 +1,7 @@
 {
   "defaultPremise": "",
   "premisePrefix" : "", 
-  "premiseSuffix": "",
+  "premiseSuffix": "\n\n",
   "questionPrefix": "",
   "questionSuffix": "\n",
   "answerPrefix": "",
