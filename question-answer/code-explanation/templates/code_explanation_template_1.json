@@ -1,5 +1,6 @@
 {
   "defaultPremise": "",
+  "premisePrefix":"",
   "premiseSuffix": "",
   "questionPrefix": "What does the code below do? Write one comment for each of the following numbered statements:\n\n",
   "questionSuffix": "\n\n",
