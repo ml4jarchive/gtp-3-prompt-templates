@@ -1,6 +1,6 @@
 {
   "defaultPremise": "",
-  "premisePrefix" : "", 
+  "premisePrefix" : "",
   "premiseSuffix": "",
   "questionPrefix": "Q: ",
   "questionSuffix": "\n\n",
@@ -9,5 +9,5 @@
   "questionTemplate": "${questionPrefix}${question}${questionSuffix}",
   "answerTemplate": "${answerPrefix}${answer}${answerSuffix}",
   "questionAndAnswerTemplate": "${questionTemplate}${answerTemplate}",
-  "premiseTemplate": "${premise}${premiseSuffix}"
+  "premiseTemplate": "${premisePrefix}${premise}${premiseSuffix}"
 }
